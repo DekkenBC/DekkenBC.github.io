@@ -13,3 +13,9 @@ p {
     font-family: verdana;
     font-size: 20px;
   }
+
+marquee {
+  font-family: Garamond;
+  font-size: 500%;
+  color: chocolate;
+}
