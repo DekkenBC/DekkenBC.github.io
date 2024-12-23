@@ -5,6 +5,8 @@ body {
 h1 {
     color: green;
     text-align: center;
+    font-family: Century;
+    font-size: 300%;
   }
   
 p {
