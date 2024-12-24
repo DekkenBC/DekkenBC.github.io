@@ -1,5 +1,6 @@
 body {
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
+    background-image: url('https://preview.redd.it/this-sub-has-given-nicknames-for-most-of-the-characters-but-v0-bd86k3ept9zb1.jpg?auto=webp&s=50348910f8fc0570a1d4630c0186b8bfaaa44646');
   }
   
 h1 {
@@ -9,6 +10,13 @@ h1 {
     font-size: 300%;
   }
   
+h2 {
+
+  background: linear-gradient(45deg, #fd0000, rgb(255,0,255), aqua);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 p {
     font-family: verdana;
     font-size: 20px;
