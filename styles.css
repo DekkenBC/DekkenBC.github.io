@@ -1,31 +1,62 @@
-body {
-    /*background-color: whitesmoke;*/
-    background-image: url('https://preview.redd.it/this-sub-has-given-nicknames-for-most-of-the-characters-but-v0-bd86k3ept9zb1.jpg?auto=webp&s=50348910f8fc0570a1d4630c0186b8bfaaa44646');
-    background-size: cover;
-  }
-  
-h1 {
-    color: red;
-    text-align: center;
-    font-family: Garamond;
-    font-size: 300%;
-  }
-  
-h2 {
-
-  background: linear-gradient(45deg, #fd0000, rgb(255,0,255), aqua);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+header {
+  text-align: center;
+  padding: 20px 0 10px 0;
+  margin-top: 50px;
+}
+header h1 {
+font-size: 4em;
+}
+header p {
+font-size: 2em;
 }
 
-p {
-    font-family: verdana;
-    font-size: 20px;
-  }
-
-marquee {
-  font-family: Garamond;
-  font-size: 50px;
-  color: chocolate;
-  
+body {
+background-color: #f7faf7;
+}
+main {
+background-color: #dee0de;
+margin: 30px auto 20px auto;
+width: 98%;
+padding-bottom: 10px;
+}
+img {
+display: block;
+margin: 0 auto;
+border-radius: 5%;
+width: 80%;
+max-width: 100%;
+}
+#img-div {
+background-color: #f7faf7;
+padding: 20px;
+width: 96%;
+margin-left: auto;
+margin-right: auto;
+}
+#img-caption > legend {
+font-size: 24px;
+text-align: center;
+margin: 25px auto;
+}
+.enfasis {
+font-weight: 900;
+}
+#tribute-info, #quotes {
+width: 40%;
+margin: 0 auto;
+text-align: left;
+}
+#tribute-info > p, #quotes > p {
+font-size: 18px;
+}
+h2 {
+margin: 50px 0 20px 0;
+text-align: center;
+}
+footer p {
+text-align: center;
+font-size: 25px;
+}
+footer {
+margin: 40px;
 }
