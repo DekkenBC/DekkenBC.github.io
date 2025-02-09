@@ -1,0 +1,66 @@
+header {
+    text-align: center;
+    padding: 20px 0 10px 0;
+    margin-top: 30px;
+    height: 130px;
+  }
+  header h1 {
+  font-size: 45px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  }
+  header p {
+  font-size: 15px;
+  margin-top: 15px;
+  }
+  
+  body {
+  background-color: #f7faf7;
+  }
+  main {
+  background-color: #dee0de;
+  margin: 30px auto 20px auto;
+  width: 98%;
+  padding-bottom: 10px;
+  }
+  img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5%;
+  width: 80%;
+  max-width: 100%;
+  }
+  #img-div {
+  background-color: #f7faf7;
+  padding: 20px;
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  #img-caption > legend {
+  font-size: 24px;
+  text-align: center;
+  margin: 25px auto;
+  }
+  .enfasis {
+  font-weight: 900;
+  }
+  #tribute-info, #quotes {
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+  }
+  #tribute-info > p, #quotes > p {
+  font-size: 18px;
+  }
+  h2 {
+  margin: 50px 0 20px 0;
+  text-align: center;
+  }
+  footer p {
+  text-align: center;
+  font-size: 25px;
+  }
+  footer {
+  margin: 40px;
+  }
