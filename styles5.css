@@ -160,3 +160,8 @@
     background: #FF5733;
     cursor: pointer;
   }
+@media screen and (max-width: 600px) {
+.imagen {
+  display: none;
+}
+}
