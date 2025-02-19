@@ -109,3 +109,11 @@ ul li:hover {
     top: 10%;
     margin-bottom: 0;
 }
+@media screen and (max-width: 920px) {
+    nav {
+      height: 20vh;
+    }
+    .description {
+        font-size: 14px;
+    }
+}
