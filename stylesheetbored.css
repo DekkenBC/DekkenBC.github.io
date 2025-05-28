@@ -96,9 +96,14 @@ h1 {
 .space {
     margin-right: 5px;
 }
+h5 {
+    color: #c0c0c0;
+    font-size: 1.2em;
+    margin: 0;
+}
 h6 {
     color: #c0c0c0;
-    font-size: 0.75em;
+    font-size: 15em;
     margin: 0;
 }
 .tag {
