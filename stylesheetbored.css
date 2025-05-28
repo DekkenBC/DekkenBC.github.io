@@ -2,7 +2,7 @@ body {
     background-color: #303a30;
     padding: 0;
     margin: 0;
-    font-family: sans-serif
+    font-family: verdana;
 }
 .navbar {
     background-color: #293129;
@@ -94,13 +94,13 @@ h1 {
 }
 h6 {
     color: #c0c0c0;
-    font-size: 1rem;
+    font-size: 1em;
     margin: 0;
 }
 .tag {
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.5rem;
+
 }
 .counter {
     color: #878787;
