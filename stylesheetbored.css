@@ -37,7 +37,7 @@ h1 {
 .navbar2 > p {
     color: #93b393;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 1rem;
     margin-top: 2px;
     text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
                0.3px 0.3px #000, -0.3px -0.3px #000, 0.3px -0.3px #000, -0.3px 0.3px #000;
