@@ -103,17 +103,18 @@ h5 {
 }
 h6 {
     color: #c0c0c0;
-    font-size: 1em;
+    font-size: 0.5em;
     margin: 0;
 }
 .tag {
     text-decoration: none;
     font-weight: 500;
-    font-size: 0.5rem;
+    font-size: 1rem;
 
 }
 .counter {
     color: #878787;
+    font-size: 5px;
 }
 .move {
     width: 300px;
@@ -124,4 +125,7 @@ h6 {
 video {
     width: 640px;
     height: 360x;
+}
+li {
+     list-style-type: none;
 }
