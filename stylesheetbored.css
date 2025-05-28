@@ -19,7 +19,7 @@ h1 {
 }
 .options {
     display: flex;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 .options > p {
     color: #93b393;
