@@ -51,10 +51,12 @@ h1 {
 #content-left {
     grid-column: 1;
     grid-row: 1;
+    width: 200px;
 }
 #content-right {
     grid-column: 2;
     grid-row: 1;
+    margin-left: -310px;
 }
 .taglist {
     background-color: #293129;
@@ -111,4 +113,9 @@ h6 {
     width: 300px;
     height: 80px;
     background-color: #303030;
+    margin-left: 30px;
+}
+video {
+    width: 640px;
+    height: 360x;
 }
