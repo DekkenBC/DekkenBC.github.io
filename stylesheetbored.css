@@ -1,0 +1,109 @@
+body {
+    background-color: #303a30;
+    padding: 0;
+}
+.navbar {
+    background-color: #293129;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+}
+h1 {
+    margin-left: 15px;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: #93b393;
+    margin-bottom: 0;
+}
+.options {
+    display: flex;
+    margin-top: -15px;
+}
+.options > p {
+    color: #93b393;
+    margin-left: 20px;
+    font-size: 16px;
+    text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
+               0.3px 0.3px #000, -0.3px -0.3px #000, 0.3px -0.3px #000, -0.3px 0.3px #000;
+}
+.navbar2 {
+    height:25px;
+    width:100%;
+    background-color: #505a50;
+    display: flex;
+}
+.navbar2 > p {
+    color: #93b393;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 2px;
+    text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
+               0.3px 0.3px #000, -0.3px -0.3px #000, 0.3px -0.3px #000, -0.3px 0.3px #000;
+}
+.everything {
+    margin-left: 20px;
+    display: grid;
+}
+#content-left {
+    grid-column: 1;
+    grid-row: 1;
+}
+#content-right {
+    grid-column: 2;
+    grid-row: 1;
+}
+.taglist {
+    background-color: #293129;
+    width: 180px;
+    height: 500px;
+    padding-left: 0;
+}
+.taglist > li > h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.taglist > li > .searchbar {
+    width: 172px;
+    color: #c0c0c0;
+    background-color: #303030;
+    border: 1px solid #545c54;
+}
+.taglist > li > .searchbutton {
+    padding-top: 0;
+    width: 181px;
+    height: 18px;
+    margin-top: 2px;
+    background-color: #93b393;
+    color: #293129;
+    font-weight: bold;
+}
+.tag-copy {
+    color: #f09ef0;
+}
+.tag-chara {
+    color: #e4e38b;
+}
+.tag-general {
+    color: #a7d79c;
+}
+.space {
+    margin-right: 5px;
+}
+h6 {
+    color: #c0c0c0;
+    font-size: 1rem;
+    margin: 0;
+}
+.tag {
+    text-decoration: none;
+    font-weight: 500;
+}
+.counter {
+    color: #878787;
+}
+.move {
+    width: 300px;
+    height: 80px;
+    background-color: #303030;
+}
