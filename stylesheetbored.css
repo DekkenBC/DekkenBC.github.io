@@ -103,18 +103,18 @@ h5 {
 }
 h6 {
     color: #c0c0c0;
-    font-size: 0.5em;
+    font-size: 1em;
     margin: 0;
 }
 .tag {
     text-decoration: none;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.8em;
 
 }
 .counter {
     color: #878787;
-    font-size: 5px;
+    font-size: 10px;
 }
 .move {
     width: 300px;
