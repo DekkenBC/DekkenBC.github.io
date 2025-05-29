@@ -82,13 +82,12 @@ a {
     text-decoration: none;
     margin: 0;
     padding: 0;
-    border: 1px solid yellow;
     
 }
 li {
      list-style-type: none;
      margin-top: 0;
-     margin-bottom: 0;
+     margin-bottom: -2px;
 }
 .counter {
     color: #878787;
@@ -96,7 +95,6 @@ li {
     letter-spacing: -1px;
     margin-top: 0;
      margin-bottom: 0;
-     border: 1px solid red;
 }
 .tag-copy {
     color: #f09ef0;
