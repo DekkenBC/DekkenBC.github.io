@@ -87,7 +87,7 @@ a {
 li {
      list-style-type: none;
      margin-top: 0;
-     margin-bottom: -2px;
+     margin-bottom: 0;
 }
 .counter {
     color: #878787;
@@ -105,9 +105,7 @@ li {
 .tag-general {
     color: #a7d79c;
 }
-.space {
-    margin-right: 10px;
-}
+
 h5 {
     color: #c0c0c0;
     font-size: 1.1em;
