@@ -29,6 +29,7 @@ h1 {
     font-size: 16px;
     text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
                0.3px 0.3px #000, -0.3px -0.3px #000, 0.3px -0.3px #000, -0.3px 0.3px #000;
+    letter-spacing: -1px;
 }
 .navbar2 {
     height:25px;
@@ -39,10 +40,11 @@ h1 {
 .navbar2 > p {
     color: #93b393;
     margin-left: 13px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 2px;
     text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
                0.3px 0.3px #000, -0.3px -0.3px #000, 0.3px -0.3px #000, -0.3px 0.3px #000;
+    letter-spacing: -1px;
 }
 .everything {
     margin-left: 20px;
@@ -67,6 +69,7 @@ h1 {
 .taglist > li > h6 {
     margin: 0;
     padding: 0;
+    letter-spacing: -1px;
 }
 
 .taglist > li > .searchbar {
@@ -84,6 +87,10 @@ h1 {
     color: #293129;
     font-weight: bold;
 }
+a {
+    margin: 0;
+    padding: 0;
+}
 .tag-copy {
     color: #f09ef0;
 }
@@ -98,13 +105,15 @@ h1 {
 }
 h5 {
     color: #c0c0c0;
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: 0;
+    letter-spacing: -1px;
 }
 h6 {
     color: #c0c0c0;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 0;
+    letter-spacing: -1px;
 }
 .tag {
     text-decoration: none;
@@ -115,6 +124,7 @@ h6 {
 .counter {
     color: #878787;
     font-size: 13px;
+    letter-spacing: -1px;
 }
 .move {
     width: 300px;
