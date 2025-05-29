@@ -21,12 +21,12 @@ h1 {
 }
 .options {
     display: flex;
-    margin-top: -5px;
+    margin-top: -8px;
 }
 .options > p {
     color: #93b393;
     margin-left: 15px;
-    font-size: 16px;
+    font-size: 13px;
     text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
                0.3px 0.3px #000, -0.3px -0.3px #000, 0.3px -0.3px #000, -0.3px 0.3px #000;
 }
