@@ -40,6 +40,7 @@ h1 {
 .navbar2 > p {
     color: #93b393;
     margin-left: 13px;
+    margin-right: 15px;
     font-size: 0.8rem;
     margin-top: 2px;
     text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
@@ -102,9 +103,6 @@ a {
 }
 .space {
     margin-right: 5px;
-}
-.space2 {
-    margin-right: 15px;;
 }
 h5 {
     color: #c0c0c0;
