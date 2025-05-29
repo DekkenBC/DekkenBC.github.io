@@ -118,7 +118,7 @@ h6 {
     letter-spacing: -1px;
 }
 .move {
-    width: 610px;
+    width: 824px;
     height: 40px;
     background-color: #303030;
     margin-left: 15px;
@@ -128,8 +128,8 @@ h6 {
     grid-template-columns: 1fr 3fr 1fr;
 }
 video {
-    width: 640px;
-    height: 360x;
+    width: 854px;
+    height: 480x;
     margin: 15px 0;
 }
 li {
