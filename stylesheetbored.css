@@ -93,7 +93,7 @@ a {
     color: #a7d79c;
 }
 .space {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 h5 {
     color: #c0c0c0;
@@ -138,6 +138,7 @@ li {
 .control {
     text-align: center;
     padding: 10px;
+    font-size: 1.1em;
 }
 .cont {
     color: #93b393;
