@@ -7,13 +7,15 @@ body {
 }
 .navbar {
     background-color: #293129;
-    height: 70px;
+    height: 60px;
     width: 100%;
     margin: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    overflow: hidden;
 }
-h1 {
-    margin-left: 15px;
-    font-size: 30px;
+h2 {
+    font-size: 1.3em;
     letter-spacing: -1px;
     color: #93b393;
     margin-bottom: 0;
@@ -25,22 +27,23 @@ h1 {
 }
 .options > p {
     color: #93b393;
-    margin-left: 15px;
     font-size: 16px;
     text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
                0.3px 0.3px #000, -0.3px -0.3px #000, 0.3px -0.3px #000, -0.3px 0.3px #000;
     letter-spacing: -1px;
+    margin-right: 28px;
 }
 .navbar2 {
     height:25px;
     width:100%;
     background-color: #505a50;
     display: flex;
+    overflow: hidden;
+    padding-left: 20px;
 }
 .navbar2 > p {
     color: #93b393;
-    margin-left: 13px;
-    margin-right: 15px;
+    margin-right: 25px;
     font-size: 0.8rem;
     margin-top: 2px;
     text-shadow: 0.3px 0 #000, -0.3px 0 #000, 0 0.3px #000, 0 -0.3px #000,
@@ -55,8 +58,8 @@ h1 {
 .taglist {
     background-color: #293129;
     width: 180px;
-    height: 500px;
     padding-left: 0;
+    margin-bottom: 0;
 }
 .taglist > li > h6 {
     margin: 0;
@@ -64,10 +67,12 @@ h1 {
     letter-spacing: -1px;
 }
 .taglist > li > .searchbar {
-    width: 172px;
+    width: 180px;
     color: #c0c0c0;
     background-color: #303030;
     border: 1px solid #545c54;
+    font-size: 0.7em;
+    padding: 0
 }
 .taglist > li > .searchbutton {
     padding-top: 0;
@@ -77,6 +82,7 @@ h1 {
     background-color: #93b393;
     color: #293129;
     font-weight: bold;
+    font-size: 0.7em;
 }
 a {
     text-decoration: none;
@@ -86,15 +92,15 @@ a {
 }
 li {
      list-style-type: none;
-     margin-top: 0;
-     margin-bottom: 0;
+     margin: 0;
+     padding: 0;
 }
 .counter {
     color: #878787;
-    font-size: 13px;
+    font-size: 0.7em;
     letter-spacing: -1px;
-    margin-top: 0;
-     margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 .tag-copy {
     color: #f09ef0;
@@ -105,7 +111,14 @@ li {
 .tag-general {
     color: #a7d79c;
 }
-
+.tag-artist {
+    color: #f0a0a0;
+}
+h3 {
+    color: #a7d79c;
+    font-weight: bold;
+    margin: 0;
+}  
 h5 {
     color: #c0c0c0;
     font-size: 1.1em;
@@ -115,12 +128,11 @@ h5 {
 h6 {
     color: #c0c0c0;
     font-size: 0.8em;
-    margin: 0;
-    letter-spacing: -1px;
+    margin-top: 10px;
 }
 .tag {
-    font-weight: 500;
-    font-size: 0.8em;
+    font-weight: 550;
+    font-size: 0.7em;
 
 }
 .move {
@@ -140,12 +152,36 @@ video {
 }
 .control {
     text-align: center;
-    padding: 10px;
+    position:relative;
     font-size: 1.1em;
 }
 .cont {
     color: #93b393;
+    font-size: 0.8em;
+}
+.arrow {
+    top: 20%;
 }
 .searching {
     color: #c0c0c0;
+    font-size: 0.8em;
+}
+.spacing {
+    margin-top: 0;
+    padding-top: 10px;
+}
+.spacing > li {
+    line-height: 1;
+}
+.extra-text {
+    color: #c0c0c0;
+    margin: 0;
+    padding: 0;
+    line-height: 0%;
+}
+.cum {
+    color: #a7d79c;
+}
+#icame {
+    margin-top: 10px;
 }
