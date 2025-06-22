@@ -1,0 +1,32 @@
+body {
+  background: #222;
+  color: white;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer-container {
+  text-align: center;
+}
+
+#display {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 1em;
+  background: #444;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.controls button:hover {
+  background: #666;
+}

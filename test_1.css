@@ -25,16 +25,12 @@ input {
   padding: 5px;
 }
 
-button {
-  padding: 5px 10px;
-}
-
 li {
   list-style: none;
   padding: 5px;
   border-bottom: 1px solid #ddd;
   display: grid;
-  grid-template-columns: 6fr 1fr 1fr;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
   overflow: hidden;
 }
 
@@ -42,4 +38,23 @@ li {
   text-decoration: line-through;
   font-weight: bolder;
   color: red;
+}
+
+button {
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.newtask {
+  width: inherit;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: 6fr 1fr 1fr;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.newtask input {
+  gap: 10px;
 }
