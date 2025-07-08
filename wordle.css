@@ -6,7 +6,7 @@ body {
 }
 .container {
     width: min(80%, 400px);
-    height: 500px;
+    height: max(50vh, 500px);
     padding: 20px;
     margin: 20px auto;
     border: 2px solid gray;
@@ -21,7 +21,8 @@ body {
     font-size: 24px;
     text-align: center;
     border-radius: 5px;
-    background-color: #333;
+    background-color: transparent;
+    border: 2px solid #333;
     color: white;
     margin: 0 auto;
     padding: 0;
