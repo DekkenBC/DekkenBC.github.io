@@ -6,7 +6,7 @@ body {
 }
 .container {
     width: min(80%, 400px);
-    height: max(50vh, 500px);
+    height: max(30vh, 500px);
     max-height: 500px;
     padding: 20px;
     margin: 20px auto;
@@ -27,4 +27,7 @@ body {
     color: white;
     margin: 0 auto;
     padding: 0;
+}
+.input {
+    margin: 0 auto;
 }
