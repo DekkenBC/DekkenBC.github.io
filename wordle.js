@@ -2,7 +2,7 @@ const guess = document.getElementById("input");
 const words = [
   "apple", "grape", "peach", "berry", "melon", "mango", "lemon", "pearl",
   "charm", "blaze", "crisp", "flock", "glove", "honey", "jolly", "knock",
-  "latch", "mirth", "noble", "ocean", "piano", "quilt", "raven", "sheep",
+  "latch", "noble", "ocean", "piano", "quilt", "raven", "sheep", "crash",
   "tiger", "ultra", "vivid", "waltz", "xenon", "yacht", "zebra", "adobe",
   "bison", "cider", "daisy", "eagle", "fable", "gazer", "haste", "ivory",
   "jewel", "karma", "liver", "mossy", "nifty", "orbit", "plush", "quack",
@@ -12,7 +12,20 @@ const words = [
   "pride", "quash", "rider", "spike", "truce", "udder", "vigor", "whale",
   "xylem", "youth", "zonal", "align", "bloom", "creek", "drift", "evoke",
   "flute", "grind", "hound", "inlet", "joust", "kiosk", "lunar", "mirth",
-  "nudge", "opine", "plume", "quell", "rouse", "shiny", "trawl", "unzip"];
+  "nudge", "opine", "plume", "quell", "rouse", "shiny", "trawl", "unzip",
+  "about", "above", "actor", "admit", "adopt", "after", "again", "agree", 
+  "ahead", "alarm", "album", "alien", "allow", "alone", "along", "alter",
+  "apart", "apply", "arena", "argue", "arise", "array", "aside", "cream",
+  "avoid", "award", "aware", "badly", "baker", "basic", "beach", "began", 
+  "below", "bench", "birth", "black", "blame", "blind", "block", "blood", 
+  "bound", "brain", "brand", "bread", "break", "bring", "broad", "brown", 
+  "cable", "carry", "catch", "cause", "chain", "chair", "chart", "chase", 
+  "chest", "chief", "child", "china", "claim", "class", "clean", "clear", 
+  "close", "coach", "coast", "could", "count", "court", "cover", "craft", 
+  "crime", "cross", "crowd", "crown", "curve", "cycle", "dance", "death",
+  "debut", "delay", "among", "anger", "angle", "angry", "asset", "audio",
+  "begin", "being", "board", "boost", "build", "buyer", "cheap", "check",
+  "click", "clock"]; 
 
 const randomWord = words[Math.floor(Math.random() * words.length)];
 const letters = document.querySelectorAll('.letter');
