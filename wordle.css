@@ -17,9 +17,9 @@ body {
     gap: 5px;
 }
 .letter {
-    width: 90%;
-    height: 90%;
-    font-size: 24px;
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
     text-align: center;
     border-radius: 5px;
     background-color: transparent;
@@ -27,7 +27,39 @@ body {
     color: white;
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box; 
+    display: flex;          
+    align-items: center;
+    justify-content: center;
 }
-.input {
+input {
     margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    border: 2px solid #333;
+    color: white; 
+    text-align: center;
+}
+input:focus{
+  outline: none;
+}
+.correct {
+    background-color: #6aaa64;
+    border-color: #6aaa64;
+}
+.absent {
+    background-color: #787c7e;
+    border-color: #787c7e;
+}
+.present {
+    background-color: #c9b458;
+    border-color: #c9b458;
+}
+#guessedwords {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid gray;
 }
