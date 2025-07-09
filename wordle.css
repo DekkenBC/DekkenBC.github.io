@@ -5,8 +5,8 @@ body {
     background-color: #0f0f0f;
 }
 .container {
-    width: min(80%, 400px);
-    height: max(30vh, 500px);
+    width: min(100%, 400px);
+    height: 500px;
     max-height: 500px;
     padding: 20px;
     margin: 20px auto;
